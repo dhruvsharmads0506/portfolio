@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav id="navbar">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Dark</button>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <div class="container">
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <img src="image/my_pic.jpg" alt="Profile Picture" class="profile-pic">
+        <h2>Hello, I'm <span>Dhruv Sharma</span></h2>
+        <p class="typing-text">I am a <span id="typing"></span></p>
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="image/RESUME (1).pdf" class="btn secondary" download>📄 Download CV</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2>About Me</h2>
+  
+  <p>
+    I am a <strong>B.Tech student</strong> specializing in <strong>Computer Science and Engineering (Artificial Intelligence)</strong> 
+    at <strong>GL Bajaj Institute of Technology and Management</strong>.  
+    <br><br>
+    I am passionate about <strong>artificial intelligence, machine learning, and web development</strong>. 
+    I love solving real-world problems through technology, building innovative projects, and exploring how AI can transform industries.  
+    <br><br>
+    Beyond academics, I actively work on coding challenges, participate in hackathons, and contribute to open-source projects to enhance my skills.  
+    <br><br>
+    My goal is to grow into a skilled AI engineer and full-stack developer while continuously learning and creating impactful solutions. 🚀
+  </p>
+</section>
+ 
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <p>Web Development, Java , Python</p>
+          <div class="progress"><span style="width:80%"></span></div>
+        </div>
+        <div class="skill">
+          <p>DSA With C++</p>
+          <div class="progress"><span style="width:90%"></span></div>
+        </div>
+        <div class="skill">
+    
+          <ul>
+            <li>Problem-Solving & Critical Thinking</li>
+            <br>
+            <li>Communication & Collaboration</li>
+              <br>
+            <li>Creativity & Innovation</li>
+              <br>
+            <li>Leadership & Ownership</li>
+              <br>
+            <li>Adaptability & Learning Mindset</li>
+          </ul>
+          <br>
+          <div class="progress"><span style="width:85%"></span></div>
+        </div>
+        <!-- <div class="skill">
+          <p>Python</p>
+          <div class="progress"><span style="width:60%"></span></div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card tilt">
+          <h3>💻 Portfolio Website</h3>
+          <p>A personal responsive portfolio site.</p>
+          <a href="#" class="btn small">🔗 Live Demo</a>
+        </div>
+        <div class="card tilt">
+          <h3>📱 Mobile App</h3>
+          <p>A simple task manager app built with React Native.</p>
+          <a href="#" class="btn small">🔗 GitHub</a>
+        </div>
+        <div class="card tilt">
+          <h3>🎮 Game Project</h3>
+          <p>A browser-based puzzle game using JavaScript.</p>
+          <a href="#" class="btn small">🔗 Play Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonials">
+        <div class="testimonial">
+          <p>"Amazing work and great creativity!"</p>
+          <h4>- 
+                Mr. Kaleem Ur Rahman
+          </h4>
+        </div>
+        <div class="testimonial">
+          <p>"A quick learner and problem solver."</p>
+          <h4>- Mentor  <br>Mr. Himanshu Nandanwa</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Delivers projects on time with quality."</p>
+          <h4>- Client DEF</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact">
+        <a href="mailto:dhruvsharmads0506@gmail.com">📧 Email</a>
+        <a href="https://linkedin.com/in/dhruvsharma0506" target="_blank">💼 LinkedIn</a>
+        <a href="https://github.com/dhruvsharmads0506" target="_blank">🐙 GitHub</a>
+        <a href="https://www.instagram.com/dhruv_s_0506?igsh=MWY2MXU2aTY2bTM2Yw== " target="_blank"> 📷 🟣🟠 Instagram</a>
+        
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Dhruv Sharma. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
